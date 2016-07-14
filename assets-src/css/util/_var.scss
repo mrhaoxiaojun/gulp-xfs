@@ -1,0 +1,29 @@
+@charset "utf-8";
+$common-bg:#f4f4f4;
+$light:#fff;
+$border:#e8e8e8;
+$text:#252525;
+$strong:#696969;     /* 强辅助 */
+$green: #64c26e;
+$gray:#a1a1a1;
+$red:#f3815a;
+
+$font-size-text:13px;
+$font-size-title:15px;
+$font-size-large:17px;
+$line:#e8e8e8;       /* 线 */
+$weak:#a1a1a1;       /* 弱辅助 */
+$strong:#696969;     /* 强辅助 */
+
+
+@mixin opacity($opacity:50) {
+  opacity: $opacity / 100;
+  /* filter: alpha(opacity=$opacity);*/
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body {
+    margin:0;
+    padding:0;
+    background:$common-bg;
+    font:13px/1.6 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,dl,ul,ol {
+    margin:0;
+    padding:0;
+}
+ol,ul,dl {
+    list-style:none outside;
+}
